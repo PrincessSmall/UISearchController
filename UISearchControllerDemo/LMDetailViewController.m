@@ -1,21 +1,22 @@
 //
-//  LMSearchViewController2.m
+//  LMDetailViewController.m
 //  UISearchControllerDemo
 //
-//  Created by 李敏 on 2018/9/6.
+//  Created by 李敏 on 2018/9/7.
 //  Copyright © 2018年 李敏. All rights reserved.
 //
 
-#import "LMSearchViewController2.h"
+#import "LMDetailViewController.h"
 
-@interface LMSearchViewController2 ()
+@interface LMDetailViewController ()
 
 @end
 
-@implementation LMSearchViewController2
+@implementation LMDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor blueColor];
     // Do any additional setup after loading the view.
 }
 

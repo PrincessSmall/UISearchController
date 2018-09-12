@@ -13,6 +13,13 @@
 		EE70CB752140B9C600263022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE70CB742140B9C600263022 /* Assets.xcassets */; };
 		EE70CB782140B9C600263022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE70CB762140B9C600263022 /* LaunchScreen.storyboard */; };
 		EE70CB7B2140B9C600263022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70CB7A2140B9C600263022 /* main.m */; };
+		EE70CB832140C53A00263022 /* LMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70CB822140C53A00263022 /* LMResultViewController.m */; };
+		EE70CB892141072200263022 /* LMSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70CB882141072200263022 /* LMSearchViewController.m */; };
+		EE70CB8C21410DB900263022 /* LMSearchViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70CB8B21410DB900263022 /* LMSearchViewController2.m */; };
+		EE70CB8F21421A5F00263022 /* LMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70CB8E21421A5F00263022 /* LMDetailViewController.m */; };
+		EE70CB982146126D00263022 /* LMCustomSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70CB972146126D00263022 /* LMCustomSearchViewController.m */; };
+		EE70CB9E214647BD00263022 /* LMCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70CB9D214647BD00263022 /* LMCustomCollectionViewCell.m */; };
+		EE70CBA1214648D900263022 /* LMcustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70CBA0214648D900263022 /* LMcustomLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		EE70CB772140B9C600263022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE70CB792140B9C600263022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE70CB7A2140B9C600263022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE70CB812140C53A00263022 /* LMResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMResultViewController.h; sourceTree = "<group>"; };
+		EE70CB822140C53A00263022 /* LMResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMResultViewController.m; sourceTree = "<group>"; };
+		EE70CB872141072200263022 /* LMSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMSearchViewController.h; sourceTree = "<group>"; };
+		EE70CB882141072200263022 /* LMSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSearchViewController.m; sourceTree = "<group>"; };
+		EE70CB8A21410DB900263022 /* LMSearchViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMSearchViewController2.h; sourceTree = "<group>"; };
+		EE70CB8B21410DB900263022 /* LMSearchViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSearchViewController2.m; sourceTree = "<group>"; };
+		EE70CB8D21421A5F00263022 /* LMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMDetailViewController.h; sourceTree = "<group>"; };
+		EE70CB8E21421A5F00263022 /* LMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMDetailViewController.m; sourceTree = "<group>"; };
+		EE70CB962146126D00263022 /* LMCustomSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMCustomSearchViewController.h; sourceTree = "<group>"; };
+		EE70CB972146126D00263022 /* LMCustomSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMCustomSearchViewController.m; sourceTree = "<group>"; };
+		EE70CB9C214647BD00263022 /* LMCustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		EE70CB9D214647BD00263022 /* LMCustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		EE70CB9F214648D900263022 /* LMcustomLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMcustomLayout.h; sourceTree = "<group>"; };
+		EE70CBA0214648D900263022 /* LMcustomLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMcustomLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,11 @@
 				EE70CB6C2140B9C400263022 /* AppDelegate.m */,
 				EE70CB6E2140B9C400263022 /* ViewController.h */,
 				EE70CB6F2140B9C400263022 /* ViewController.m */,
+				EE70CB9B2146132400263022 /* customSearch */,
+				EE70CB9A2146132000263022 /* 自定义搜索结果界面 */,
+				EE70CB99214612E100263022 /* LMSearchViewController */,
+				EE70CB8D21421A5F00263022 /* LMDetailViewController.h */,
+				EE70CB8E21421A5F00263022 /* LMDetailViewController.m */,
 				EE70CB712140B9C400263022 /* Main.storyboard */,
 				EE70CB742140B9C600263022 /* Assets.xcassets */,
 				EE70CB762140B9C600263022 /* LaunchScreen.storyboard */,
@@ -69,6 +95,39 @@
 				EE70CB7A2140B9C600263022 /* main.m */,
 			);
 			path = UISearchControllerDemo;
+			sourceTree = "<group>";
+		};
+		EE70CB99214612E100263022 /* LMSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE70CB8A21410DB900263022 /* LMSearchViewController2.h */,
+				EE70CB8B21410DB900263022 /* LMSearchViewController2.m */,
+			);
+			path = LMSearchViewController;
+			sourceTree = "<group>";
+		};
+		EE70CB9A2146132000263022 /* 自定义搜索结果界面 */ = {
+			isa = PBXGroup;
+			children = (
+				EE70CB872141072200263022 /* LMSearchViewController.h */,
+				EE70CB882141072200263022 /* LMSearchViewController.m */,
+				EE70CB812140C53A00263022 /* LMResultViewController.h */,
+				EE70CB822140C53A00263022 /* LMResultViewController.m */,
+			);
+			path = "自定义搜索结果界面";
+			sourceTree = "<group>";
+		};
+		EE70CB9B2146132400263022 /* customSearch */ = {
+			isa = PBXGroup;
+			children = (
+				EE70CB962146126D00263022 /* LMCustomSearchViewController.h */,
+				EE70CB972146126D00263022 /* LMCustomSearchViewController.m */,
+				EE70CB9C214647BD00263022 /* LMCustomCollectionViewCell.h */,
+				EE70CB9D214647BD00263022 /* LMCustomCollectionViewCell.m */,
+				EE70CB9F214648D900263022 /* LMcustomLayout.h */,
+				EE70CBA0214648D900263022 /* LMcustomLayout.m */,
+			);
+			path = customSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +156,7 @@
 		EE70CB602140B9C400263022 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LM;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "李敏";
 				TargetAttributes = {
@@ -142,7 +202,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE70CB702140B9C400263022 /* ViewController.m in Sources */,
+				EE70CB892141072200263022 /* LMSearchViewController.m in Sources */,
+				EE70CB982146126D00263022 /* LMCustomSearchViewController.m in Sources */,
 				EE70CB7B2140B9C600263022 /* main.m in Sources */,
+				EE70CB8F21421A5F00263022 /* LMDetailViewController.m in Sources */,
+				EE70CBA1214648D900263022 /* LMcustomLayout.m in Sources */,
+				EE70CB832140C53A00263022 /* LMResultViewController.m in Sources */,
+				EE70CB8C21410DB900263022 /* LMSearchViewController2.m in Sources */,
+				EE70CB9E214647BD00263022 /* LMCustomCollectionViewCell.m in Sources */,
 				EE70CB6D2140B9C400263022 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
